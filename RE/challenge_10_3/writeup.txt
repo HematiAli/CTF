@@ -1,0 +1,20 @@
+this challenge can't pach because time dependent on sleep.
+must use my  time and sleep
+a.c
+--------------------------------------------
+int counter = 0;
+
+int sleep(int a){
+        counter += a;
+
+        return 0;
+}
+int time(){
+        return counter;
+}
+------------------------------------------------- 
+gcc -shared -fPIC   a.c  -o  a.so
+
+LD_PRELOAD=./a.so    ./chal 
+
+then get FLAG

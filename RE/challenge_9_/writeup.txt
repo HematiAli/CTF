@@ -1,0 +1,3 @@
+HINT: rgb , h:50 , w:450
+we can understand against with image and we can use GIMP to get image and read flag 
+challenge is hard but with this way is very easy
